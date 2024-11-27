@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My page</title>
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="logo-title">
+        <img src="./images/me.JPG" alt="Логотип сайта" class="logo">
+        <h1>orbis</h1>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="https://www.ozon.ru/">Yandex Music</a></li>
+            <li><a href="https://www.wildberries.ru/">Apple Music</a></li>
+            <li><a href="https://market.yandex.ru/">VK Music</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+    <section class="hyperlinks-section">
+        <h1 style="text-align: center;">Список гиперссылок:</h1>
+        <h3>
+            <ul class="hyperlinks">
+                <li><a href="http://www.kubsu.ru">КУБГУ</a></li>
+                <li><a href="https://www.kubsu.ru">КУБГУ (HTTPS)</a></li>
+                <li><a href="https://www.kubsu.ru" title="Гитара лол"><img src="./images/guitar.jpg" alt="literally me" width="300"></a></li>
+                <li><a href="./about/about_aleksandrov.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="#fragment">Ссылка на фрагмент (Форма)</a></li>
+                <li><a href="https://www.dns-shop.ru/catalog/17a8a01d16404e77/smartfony/?stock=now-today-tomorrow&price=100000-199999&brand=samsung">Ссылка с тремя параметрами в URL</a></li>
+                <li><a href="https://www.example.com/item?id=12345">Ссылка с параметром id</a></li>
+                <li><a href="./index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/about_aleksandrov.html">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="./level_1/postavte_40_ballov.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li><a href="./level_1/level_2/nu_pzh_postavte_40_ballov.html">Относительная на страницу в каталоге двумя уровнями выше</a></li>
+                <li>Контекстная <a href="https://classroom.google.uk.to/static/assets/gamebackend/chromedino">ссылка</a> в тексте абзаца</li>
+                <li><a href="https://carx-online.com/ru#contacts">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <img src="./images/guitar_2.jpg" usemap="#image-map" alt="Example Image" width="500">
+
+                <map name="image-map">
+                  <area shape="rect" coords="34,44,270,350" href="https://zenrus.ru/" alt="Rectangle Area" title="Область квадрата">
+                  <area shape="circle" coords="400,150,80" href="https://alice.yandex.ru/" alt="Circle Area" title="Область круга">
+                </map>
+                
+                <li><a href="">Ссылка с пустым href</a></li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="https://github.com/Qiber" rel="nofollow">Ссылка с запретом перехода для поисковиков</a></li>
+                <li><a href="index.html" rel="noindex">Ссылка, запрещенная для индексации поисковиками</a></li>
+                <ol>
+                    <li><a href="https://youtu.be/3GKaT-rUwF4?si=odbwIx2MHgtq0vVx" title="Видео 1">Ссылка 1</a></li>
+                    <li><a href="https://youtu.be/lwP2pKDMM7Y?si=Dwggm3VnKIqqiI_S" title="Видео 2">Ссылка 2</a></li>
+                    <li><a href="https://youtu.be/ma46_t-Jd5k?si=gK7dL9R2aQSLVETn" title="Видео 3">Ссылка 3</a></li>
+                </ol>
+                <li><a href="ftp://username:password@ftp.example.com/file.txt">Ссылка на FTP</a></li>
+            </ul>
+        </h3>
+    </section>
+    <section class="table-section">
+        <h2 style="text-align: center;">Таблица</h2>
+        <table class="table">
+            <thead style="background-color: #998a7b;">
+                <tr>
+                    <th>Релиз</th>
+                    <th>Yandex Music</th>
+                    <th>VK Music</th>
+                    <th>Apple Music</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr style="background-color: rgb(121, 100, 82);">
+                    <td>Акварели</td>
+                    <td>2543</td>
+                    <td>213</td>
+                    <td>431</td>
+                </tr>
+                <tr style="background-color: rgb(165, 150, 137);">
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: rgb(121, 100, 82);">
+                    <td>-</td>
+                    <td>-</td>  
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: rgb(165, 150, 137);">
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: rgb(121, 100, 82);">
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr> 
+                <tr>
+                    <td colspan="4" style="background-color: #998a7b">Прослушивания</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="form-section">
+        <h1 id="fragment">Форма:</h1>
+
+        <h4>
+            <form method="POST" class="Form">
+                <label>
+                    ФИО:<br> <input name="field-full-name" value="" pattern="[А-Яа-я]*?\s[А-Яа-я]*?\s[А-Яа-я]*" required placeholder="Введите ФИО">
+                </label><br>
+
+                <label>
+                    Номер телефона:<br> <input name="field-phone" value="" type="tel" placeholder="+7-(***)-***--" minlength="12" value="+7" pattern="+[7]{1}[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                </label><br>
+
+                <label>
+                    Email:<br> <input name="field-email" value="" type="email" placeholder="username@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </label><br>
+
+                <label>
+                    Дата рождения:<br> <input name="field-date" value="" type="date" required>
+                </label><br>
+
+                <label>
+                    Пол:<br>
+                    <input type="radio" name="field-gender" value="Мужской">
+                    Мужской
+                </label><br>
+
+                <label>
+                    <input type="radio" name="field-gender" value="Женский">
+                    Женский
+                </label><br>
+
+                <label>
+                    Любимый язык программирования:
+                    <br>
+                    <select name="field-programming-leng" multiple="multiple" size="10">
+                        <option value="Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Haskel">Haskel</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select>
+                </label><br>
+
+                <label>
+                    Биография:<br> <textarea name="field-bio" minlength="50" required style="width: 200px; height: 150px;"></textarea>
+                </label><br>
+                <label>
+                    С контрактом ознакомлен(a)
+                    <input type="checkbox" name="check">
+                </label><br>
+
+                <input id="box" type="submit" value="Сохранить">
+            </form>
+        </h4>
+    </section>
+</main>
+
+    <footer class="site-footer">
+        <p>&copy;orbis</p>
+    </footer>
+
+</body>
+</html>
